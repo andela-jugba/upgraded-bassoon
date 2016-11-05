@@ -3,17 +3,12 @@
     <div class="media">
       <div class="media-left">
         <a href="#">
-          <img src="http://www.gravatar.com.avatar/424242" alt="" class="media-object"/>
+          <img src="<%= @question.gravatar %>" alt="" class="media-object"/>
         </a>
       </div>
       <div class="media-body">
-        <h4 class="media-heading">user@email.com asked:</h4>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-        nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-        deserunt mollit anim id est laborum.
+        <h4 class="media-heading"><%= @question.email %> asked:</h4>
+        <%= @question.body %>
       </div>
     </div>
   </div>
