@@ -1,3 +1,10 @@
+GIT
+  remote: git://github.com/andela-jugba/versionator.git
+  revision: 7afa5960a3fe217f896891178f477bbffe2a1c62
+  specs:
+    versionator (0.1.0)
+      systemu
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -147,8 +154,6 @@ GEM
     uglifier (3.0.4)
       execjs (>= 0.3.0, < 3)
     version (1.0.0)
-    versionator (0.1.0)
-      systemu
     web-console (3.4.0)
       actionview (>= 5.0)
       activemodel (>= 5.0)
@@ -180,7 +185,7 @@ DEPENDENCIES
   tzinfo-data
   uglifier (>= 1.3.0)
   version
-  versionator
+  versionator!
   web-console
 
 BUNDLED WITH
