@@ -6,26 +6,30 @@
 </div>
 
 <div class="container">
-  <% @questions.each do |question| %>
-  <div class="media">
-    <div class="media-left">
-      <a href="#">
-        <img src=<%=question.gravatar %> alt="" class="media-object"/>
-      </a>
-    </div>
-    <div class="media-body">
-      <h4 class="media-heading"><%= question.email %> asked:</h4>
-      <div><%= time_ago_in_words question.created_at %></div>
-      <%= question.body %>
-      <div class="">
-        <a href="<%= question_path(question) %>" class="btn btn-success btn-xs">View Answers</a>
-      </div>
-    </div>
+  <div class="boxes">
+    <% @questions.each do |question| %>
+        <div class="media" data-target="<%= question_path(question) %>">
+          <div class="media-left">
+            <a href="#">
+              <img src=<%=question.gravatar %> alt="" class="media-object"/>
+            </a>
+          </div>
+          <div class="media-body">
+            <h4 class="media-heading"><%= question.email %> asked:</h4>
+            <div class="time"><%= time_ago_in_words question.created_at %></div>
+            <%= question.body %>
+            <div class="answer">
+              <a href="<%= question_path(question) %>" class="btn btn-success btn-xs">View Answers</a>
+            </div>
+          </div>
+        </div>
+    <% end %>
   </div>
-  <% end %>
+
   <% if @questions.empty? %>
-  <div class="alert alert-info">Nothing here yet. Be the first to ask!</div>
+      <div class="alert alert-info">Nothing here yet. Be the first to ask!</div>
   <% end %>
+  <p> Version is <%= @version %></p>
 </div>
 
 </div>
