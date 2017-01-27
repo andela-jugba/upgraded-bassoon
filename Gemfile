@@ -50,3 +50,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'sucker_punch'
 gem 'bump'
+gem 'versionator'
