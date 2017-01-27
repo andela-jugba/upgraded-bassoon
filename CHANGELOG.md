@@ -1,5 +1,18 @@
 # Change Log
 
+## [v0.1.4](https://github.com/andela-jugba/upgraded-bassoon/tree/v0.1.4) (2017-01-27)
+[Full Changelog](https://github.com/andela-jugba/upgraded-bassoon/compare/v0.1.3...v0.1.4)
+
+**Merged pull requests:**
+
+- Configure asset pipeline [\#1](https://github.com/andela-jugba/upgraded-bassoon/pull/1) ([andela-jugba](https://github.com/andela-jugba))
+
+## [v0.1.3](https://github.com/andela-jugba/upgraded-bassoon/tree/v0.1.3) (2017-01-27)
+[Full Changelog](https://github.com/andela-jugba/upgraded-bassoon/compare/v0.1.1...v0.1.3)
+
+## [v0.1.1](https://github.com/andela-jugba/upgraded-bassoon/tree/v0.1.1) (2017-01-27)
+[Full Changelog](https://github.com/andela-jugba/upgraded-bassoon/compare/v0.0.6...v0.1.1)
+
 ## [v0.0.6](https://github.com/andela-jugba/upgraded-bassoon/tree/v0.0.6) (2017-01-26)
 [Full Changelog](https://github.com/andela-jugba/upgraded-bassoon/compare/v0.0.6-rc...v0.0.6)
 
