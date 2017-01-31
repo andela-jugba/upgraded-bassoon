@@ -8,7 +8,7 @@ class HomeController < ApplicationController
   end
 
   def version
-    msg = { :verison => Rails.application.config.version}
+    msg = { verison: Rails.application.config.version}
     render :json => msg
   end
 
