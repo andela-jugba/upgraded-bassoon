@@ -1,5 +1,8 @@
 # Change Log
 
+## [v0.3.22](https://github.com/andela-jugba/upgraded-bassoon/tree/v0.3.22) (2017-02-01)
+[Full Changelog](https://github.com/andela-jugba/upgraded-bassoon/compare/v0.3.19...v0.3.22)
+
 ## [v0.3.19](https://github.com/andela-jugba/upgraded-bassoon/tree/v0.3.19) (2017-01-30)
 [Full Changelog](https://github.com/andela-jugba/upgraded-bassoon/compare/v0.3.18...v0.3.19)
 
@@ -16,13 +19,13 @@
 [Full Changelog](https://github.com/andela-jugba/upgraded-bassoon/compare/v0.3.13...v0.3.14)
 
 ## [v0.3.13](https://github.com/andela-jugba/upgraded-bassoon/tree/v0.3.13) (2017-01-27)
-[Full Changelog](https://github.com/andela-jugba/upgraded-bassoon/compare/v0.3.12...v0.3.13)
-
-## [v0.3.12](https://github.com/andela-jugba/upgraded-bassoon/tree/v0.3.12) (2017-01-27)
-[Full Changelog](https://github.com/andela-jugba/upgraded-bassoon/compare/0.3.11...v0.3.12)
+[Full Changelog](https://github.com/andela-jugba/upgraded-bassoon/compare/0.3.11...v0.3.13)
 
 ## [0.3.11](https://github.com/andela-jugba/upgraded-bassoon/tree/0.3.11) (2017-01-27)
-[Full Changelog](https://github.com/andela-jugba/upgraded-bassoon/compare/0.3.9...0.3.11)
+[Full Changelog](https://github.com/andela-jugba/upgraded-bassoon/compare/v0.3.12...0.3.11)
+
+## [v0.3.12](https://github.com/andela-jugba/upgraded-bassoon/tree/v0.3.12) (2017-01-27)
+[Full Changelog](https://github.com/andela-jugba/upgraded-bassoon/compare/0.3.9...v0.3.12)
 
 ## [0.3.9](https://github.com/andela-jugba/upgraded-bassoon/tree/0.3.9) (2017-01-27)
 [Full Changelog](https://github.com/andela-jugba/upgraded-bassoon/compare/0.3.8q...0.3.9)
